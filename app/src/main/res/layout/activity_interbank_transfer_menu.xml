@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
-    tools:context=".transferServices">
+    tools:context=".interbankTransferMenu">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
@@ -65,13 +65,13 @@
             tools:ignore="VectorDrawableCompat" />
 
         <TextView
-            android:id="@+id/txtOTConfirmation"
+            android:id="@+id/interbankTransferTopic"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="92dp"
             android:layout_marginTop="12dp"
             android:fontFamily="sans-serif-medium"
-            android:text="@string/tranferAppBar"
+            android:text="@string/interbankTransfer"
             android:textColor="#FFFFFF"
             android:textSize="28sp"
             app:layout_constraintStart_toStartOf="parent"
@@ -101,12 +101,12 @@
                 android:id="@+id/moneyVextor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="24dp"
                 android:contentDescription="@string/ibfund"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/ic_money"
+                app:srcCompat="@drawable/ic_coin"
                 tools:ignore="VectorDrawableCompat" />
 
             <TextView
@@ -114,8 +114,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="40dp"
-                android:layout_marginEnd="68dp"
-                android:text="@string/fundTransferString"
+                android:layout_marginEnd="16dp"
+                android:text="@string/oneTimeTransferTopic"
                 android:textColor="#93182F"
                 android:textSize="24sp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -128,30 +128,30 @@
             android:layout_height="122dp"
             android:layout_marginTop="49dp"
             android:background="@drawable/menuitemrectangle"
-            android:onClick="navigateToInterBank"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.507"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/trnsBtn1">
 
             <ImageView
-                android:id="@+id/imageView6"
+                android:id="@+id/imageView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="22dp"
-                android:layout_marginTop="29dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="8dp"
+                android:contentDescription="@string/interbankTransfer"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/ic_bank"
+                app:srcCompat="@drawable/ic_currencyexchange"
                 tools:ignore="VectorDrawableCompat" />
 
             <TextView
                 android:id="@+id/textViewTSBtnTopic1"
-                android:layout_width="220dp"
-                android:layout_height="89dp"
-                android:layout_marginTop="24dp"
+                android:layout_width="218dp"
+                android:layout_height="68dp"
+                android:layout_marginTop="36dp"
                 android:layout_marginEnd="16dp"
-                android:text="@string/interb"
+                android:text="@string/favTrans"
                 android:textColor="#93182F"
                 android:textSize="24sp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -164,33 +164,34 @@
             android:layout_height="122dp"
             android:layout_marginTop="46dp"
             android:background="@drawable/menuitemrectangle"
+            android:onClick="navigateToManageBeneficiary"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.507"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/trnsBtn2">
 
-            <ImageView
-                android:id="@+id/imageView7"
-                android:layout_width="95dp"
-                android:layout_height="77dp"
-                android:layout_marginStart="15dp"
-                android:layout_marginTop="20dp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/ic_branchtobranch"
-                tools:ignore="VectorDrawableCompat" />
-
             <TextView
                 android:id="@+id/textViewTSBtnTopic2"
-                android:layout_width="213dp"
-                android:layout_height="83dp"
-                android:layout_marginTop="20dp"
+                android:layout_width="232dp"
+                android:layout_height="109dp"
+                android:layout_marginTop="16dp"
                 android:layout_marginEnd="16dp"
-                android:text="@string/branchtobranchstring"
+                android:text="@string/MngFavB"
                 android:textColor="#93182F"
                 android:textSize="24sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="24dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_peoplefill"
+                tools:ignore="VectorDrawableCompat" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
