@@ -8,14 +8,14 @@
 
     <ImageView
         android:id="@+id/logo"
-        android:layout_width="130dp"
-        android:layout_height="121dp"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.203"
+        app:layout_constraintVertical_bias="0.129"
         app:srcCompat="@drawable/peopleswaveicon" />
 
     <Button
@@ -27,7 +27,7 @@
         android:text="LOGIN"
         android:textColor="#FFFFFF"
         android:textSize="34sp"
-        app:backgroundTint="@drawable/button_border"
+        app:backgroundTint="@color/theme_color"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -40,13 +40,14 @@
         android:background="@drawable/signup_btn_border"
         android:onClick="navigateToSignup"
         android:text="SIGNUP"
-        android:textColor="#FFFFFF"
+        android:textColor="#FBFAF9"
         android:textSize="34sp"
-        app:backgroundTint="@drawable/signup_btn_border"
+        app:backgroundTint="@color/logo_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.729" />
+        app:layout_constraintVertical_bias="0.729"
+        tools:ignore="TextContrastCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
