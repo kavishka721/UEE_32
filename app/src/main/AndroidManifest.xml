@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PeoplesWave">
-        <activity android:name=".creditcardService"/>
+
+        <activity android:name=".manageFavouriteBills"></activity>
+        <activity android:name=".addFavoriteBiller"></activity>
+        <activity android:name=".editFavoriteBiller" />
+        <activity android:name=".creditcardService" />
+
+       
         <activity
             android:name=".OneTimePaymentConfirmation"
             android:exported="true" />
@@ -25,6 +31,7 @@
         <activity
             android:name=".interbankTransferMenu"
             android:exported="true" />
+
         <activity
             android:name=".transferServices"
             android:exported="true" />
