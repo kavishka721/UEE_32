@@ -23,7 +23,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
         android:layout_marginTop="136dp"
-        android:text="TextView"
+        android:text="@string/OTAccName"
+        android:textColor="@color/black"
+        android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/txtOTAccNumber"
         app:layout_constraintHorizontal_bias="0.005"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,7 +37,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="136dp"
         android:layout_marginEnd="52dp"
-        android:text="TextView"
+        android:text="@string/OTAccNum"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -45,7 +47,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="52dp"
-        android:text="TextView"
+        android:text="@string/ElectricityBoard"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtOTSProvider" />
 
@@ -55,7 +57,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
         android:layout_marginTop="76dp"
-        android:text="TextView"
+        android:text="@string/txtOTAmount"
+        android:textColor="@color/black"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtOTSProvider" />
 
@@ -65,7 +69,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
         android:layout_marginTop="32dp"
-        android:text="TextView"
+        android:text="@string/OTServiceProvider"
+        android:textColor="@color/black"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtOTAccount" />
 
@@ -73,10 +79,10 @@
         android:id="@+id/txtOTAmt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:text="TextView"
+        android:layout_marginTop="44dp"
+        android:text="@string/Amount"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.709"
+        app:layout_constraintHorizontal_bias="0.726"
         app:layout_constraintStart_toEndOf="@+id/txtOTCurrency"
         app:layout_constraintTop_toBottomOf="@+id/txtOTProvAccNum" />
 
@@ -86,7 +92,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
         android:layout_marginTop="60dp"
-        android:text="TextView"
+        android:text="@string/txtOTDate"
+        android:textColor="@color/black"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtOTPayAmount" />
 
@@ -95,7 +103,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="52dp"
-        android:text="TextView"
+        android:text="@string/OTDate"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtOTPayDate" />
 
@@ -105,7 +113,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="52dp"
-        android:text="TextView"
+        android:text="@string/EBAccNum"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtOTProvName" />
 
@@ -115,7 +123,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="116dp"
         android:layout_marginTop="4dp"
-        android:text="TextView"
+        android:text="@string/LKR"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtOTPayAmount" />
 
@@ -123,18 +132,20 @@
         android:id="@+id/edTxtOTP"
         android:layout_width="150dp"
         android:layout_height="41dp"
+        android:layout_marginStart="88dp"
         android:layout_marginTop="12dp"
         android:ems="10"
         android:inputType="number"
-        app:layout_constraintTop_toBottomOf="@+id/txtOTP"
-        tools:layout_editor_absoluteX="90dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtOTP" />
 
     <Button
         android:id="@+id/btnOTResend"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:text="Button"
+        android:text="@string/btnOTResend"
+        app:backgroundTint="@color/theme_color"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.204"
         app:layout_constraintStart_toEndOf="@+id/edTxtOTP"
@@ -145,7 +156,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="180dp"
-        android:text="Button"
+        android:text="@string/btnOTCancel"
+        android:textColor="@color/theme_color"
+        app:backgroundTint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btnOTConfirm"
         app:layout_constraintHorizontal_bias="0.923"
@@ -157,7 +170,8 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="52dp"
         android:layout_marginBottom="180dp"
-        android:text="Button"
+        android:text="@string/btnOTConfirm"
+        app:backgroundTint="@color/theme_color"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -167,7 +181,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
         android:layout_marginTop="32dp"
-        android:text="TextView"
+        android:text="@string/txtOTP"
+        android:textColor="@color/black"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtOTPayDate" />
 
@@ -176,7 +192,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
-        android:text="TextView"
+        android:text="@string/OTPaymentConfirmation"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/imageViewOTCard"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.515"

@@ -7,6 +7,21 @@
     <string name="txtOTAmount">Amount</string>
     <string name="txtOTDate">Date</string>
     <string name="txtOTDownload">Download Payment Receipt</string>
+    <string name="btnOTResend">RESEND</string>
+    <string name="btnOTCancel">CANCEL</string>
+    <string name="btnOTConfirm">CONFIRM</string>
+    <string name="OTPaymentConfirmation">Payment Confirmation</string>
+    <string name="OTAccName">Personal</string>
+    <string name="OTAccNum">1254-667-23878</string>
+    <string name="OTServiceProvider">Service Provider</string>
+    <string name="ElectricityBoard">Electricity Board</string>
+    <string name="EBAccNum">1254-6237-23878</string>
+    <string name="txtOTAmount">Amount</string>
+    <string name="LKR">LKR</string>
+    <string name="Amount">3500.00</string>
+    <string name="txtOTDate">Date</string>
+    <string name="OTDate">11/09/2021</string>
+    <string name="txtOTP">OTP</string>
 
 
 </resources>
