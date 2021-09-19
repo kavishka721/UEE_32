@@ -22,4 +22,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
 
     }
+
+    //navigate to forget password
+    public void navigateToForgetPass(View view){
+        Intent intentFP =  new Intent(this,ForgotPassStep1.class);
+        startActivity(intentFP);
+
+    }
 }

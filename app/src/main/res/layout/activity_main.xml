@@ -83,6 +83,7 @@
         android:id="@+id/loginFotgotPass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="navigateToForgetPass"
         android:text="Forgotton Password?"
         android:textColor="#0B0B0B"
         android:textSize="24sp"

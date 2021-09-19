@@ -6,7 +6,12 @@
         <entry key="..\:/UEE/app/src/main/res/drawable/button_border.xml" value="0.2890625" />
         <entry key="..\:/UEE/app/src/main/res/drawable/ck_back.xml" value="0.2890625" />
         <entry key="..\:/UEE/app/src/main/res/drawable/edit_text_border.xml" value="0.33" />
+        <entry key="..\:/UEE/app/src/main/res/drawable/pinbox.xml" value="0.2890625" />
         <entry key="..\:/UEE/app/src/main/res/drawable/signup_btn_border.xml" value="0.2890625" />
+        <entry key="..\:/UEE/app/src/main/res/layout/activity_forgot_pass_step1.xml" value="0.27291666666666664" />
+        <entry key="..\:/UEE/app/src/main/res/layout/activity_forgot_pass_step2.xml" value="0.25885416666666666" />
+        <entry key="..\:/UEE/app/src/main/res/layout/activity_forgot_pass_step3.xml" value="0.27291666666666664" />
+        <entry key="..\:/UEE/app/src/main/res/layout/activity_forgot_pass_step4.xml" value="0.27291666666666664" />
         <entry key="..\:/UEE/app/src/main/res/layout/activity_initial_screen.xml" value="0.27291666666666664" />
         <entry key="..\:/UEE/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/UEE/app/src/main/res/layout/activity_signup_step1.xml" value="0.33" />
