@@ -10,6 +10,36 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PeoplesWave">
 
+        <activity
+            android:name=".ForgotPassStep4"
+            android:exported="true" />
+        <activity
+            android:name=".ForgotPassStep3"
+            android:exported="true" />
+        <activity
+            android:name=".ForgotPassStep2"
+            android:exported="true" />
+        <activity
+            android:name=".ForgotPassStep1"
+            android:exported="true" />
+        <activity
+            android:name=".SignupStep4"
+            android:exported="true" />
+        <activity
+            android:name=".SignupStep3"
+            android:exported="true" />
+        <activity
+            android:name=".SignupStep2"
+            android:exported="true" />
+        <activity
+            android:name=".SignupStep1"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityInitialScreen"
+            android:exported="true" />
+        
+
+
         <activity android:name=".manageFavouriteBills"></activity>
         <activity android:name=".addFavoriteBiller"></activity>
         <activity android:name=".editFavoriteBiller" />
@@ -31,6 +61,7 @@
         <activity
             android:name=".interbankTransferMenu"
             android:exported="true" />
+
 
         <activity
             android:name=".transferServices"
