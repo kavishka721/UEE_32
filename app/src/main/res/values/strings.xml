@@ -56,6 +56,8 @@
     <string name="editButtonTag">EDIT</string>
     <string name="AddNewBeneficaryTag">Add New Beneficiary</string>
     <string name="OTTitle">One Time Bill Payment</string>
+    <string name="manageFavBills">Manage Favourite Bills</string>
+    <string name="AddNewBillerTag">Add New Payee</string>
 
 
 </resources>

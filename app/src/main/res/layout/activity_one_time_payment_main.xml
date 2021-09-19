@@ -91,7 +91,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="50dp"
         android:text="@string/txtOTServiceProvider"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtOTFromAccount" />
@@ -101,7 +101,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="40dp"
         android:text="@string/txtOTAccNum"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtOTServiceProvider" />
@@ -111,7 +111,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="60dp"
         android:text="@string/txtOTAmount"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtOTAccNum" />
@@ -128,8 +128,9 @@
 
     <Button
         android:id="@+id/btnOTPay"
-        android:layout_width="145dp"
-        android:layout_height="76dp"
+        android:layout_width="172dp"
+        android:layout_height="50dp"
+        android:onClick="navigateToPaymentConfirmation"
         android:text="@string/btnOTPay"
         app:backgroundTint="@color/theme_color"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -142,7 +143,7 @@
         android:id="@+id/checkBox"
         android:layout_width="242dp"
         android:layout_height="49dp"
-        android:layout_marginTop="76dp"
+        android:layout_marginTop="44dp"
         android:text="@string/txtOTDownload"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -154,7 +155,7 @@
         android:layout_width="315dp"
         android:layout_height="25dp"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtOTFromAccount" />
 
@@ -163,16 +164,16 @@
         android:layout_width="318dp"
         android:layout_height="30dp"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="11dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtOTServiceProvider" />
 
     <EditText
         android:id="@+id/editTextOTAmount"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="211dp"
+        android:layout_height="33dp"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="10dp"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintStart_toStartOf="parent"
@@ -191,8 +192,8 @@
 
     <EditText
         android:id="@+id/editTextOTDate"
-        android:layout_width="187dp"
-        android:layout_height="51dp"
+        android:layout_width="189dp"
+        android:layout_height="24dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="8dp"
         android:ems="10"

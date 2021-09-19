@@ -20,8 +20,8 @@
 
     <Button
         android:id="@+id/floginbtn"
-        android:layout_width="203dp"
-        android:layout_height="92dp"
+        android:layout_width="268dp"
+        android:layout_height="62dp"
         android:background="@drawable/button_border"
         android:onClick="navigateToLogin"
         android:text="LOGIN"
@@ -30,13 +30,15 @@
         app:backgroundTint="@color/theme_color"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="203dp"
-        android:layout_height="92dp"
+        android:layout_width="268dp"
+        android:layout_height="62dp"
         android:background="@drawable/signup_btn_border"
         android:onClick="navigateToSignup"
         android:text="SIGNUP"
@@ -45,9 +47,10 @@
         app:backgroundTint="@color/logo_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.729"
+        app:layout_constraintVertical_bias="0.68"
         tools:ignore="TextContrastCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

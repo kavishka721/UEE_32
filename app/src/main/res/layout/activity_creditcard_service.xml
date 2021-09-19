@@ -13,6 +13,7 @@
         android:id="@+id/imageView3"
         android:layout_width="match_parent"
         android:layout_height="60dp"
+        android:background="@drawable/topbarrectangle"
         app:layout_constraintBottom_toTopOf="@+id/app_toolbar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -25,6 +26,7 @@
         android:layout_width="303dp"
         android:layout_height="59dp"
         android:layout_marginBottom="1dp"
+        android:background="@drawable/topbarrectangle"
         app:layout_constraintBottom_toBottomOf="@+id/imageView3"
         app:layout_constraintEnd_toEndOf="@+id/imageView3"
         app:layout_constraintTop_toTopOf="@+id/imageView3"
@@ -46,14 +48,13 @@
         android:id="@+id/app_toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#93182F"
+        android:background="@drawable/topicbarrectangle"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         android:tooltipText="Credit Card Service"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:navigationIcon="@drawable/ic_baseline_keyboard_backspace_24"
-        />
+        app:navigationIcon="@drawable/ic_baseline_arrow_back_24" />
 
     <TextView
         android:id="@+id/addBiller_title"
@@ -96,20 +97,20 @@
         android:layout_width="0dp"
         android:layout_height="40dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="20dp"
         android:background="@drawable/dropdown_background"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ccs_from_tv"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/ccs_from_tv" />
 
     <TextView
         android:id="@+id/ccs_toacc_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="16dp"
         android:text="To: (credit card account)*"
         android:textColor="@color/black"
         android:textSize="16sp"
@@ -121,12 +122,13 @@
         android:layout_width="0dp"
         android:layout_height="40dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:background="@drawable/dropdown_background"
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ccs_toacc_tv" />
 
@@ -135,12 +137,13 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="20dp"
         android:text="Amount:"
         android:textColor="@color/black"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ccs_toacc_et" />
 
@@ -170,8 +173,8 @@
         android:id="@+id/ccs_pdate_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
         android:text="Payment Date"
         android:textColor="@color/black"
         android:textSize="16sp"
@@ -182,8 +185,8 @@
         android:id="@+id/ccs_date_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="28dp"
         android:text="2021-09-25"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
@@ -194,12 +197,13 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
+        android:layout_marginTop="60dp"
         android:layout_marginEnd="50dp"
-        android:layout_marginBottom="30dp"
         android:text="NEXT"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ccs_date_tv" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

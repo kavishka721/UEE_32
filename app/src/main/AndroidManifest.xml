@@ -35,7 +35,7 @@
             android:name=".SignupStep1"
             android:exported="true" />
         <activity
-            android:name=".ActivityInitialScreen"
+            android:name=".MainActivity"
             android:exported="true" />
         
 
@@ -69,7 +69,7 @@
         <activity
             android:name=".Menu"
             android:exported="true" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".ActivityInitialScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

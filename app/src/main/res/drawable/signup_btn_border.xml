@@ -6,7 +6,7 @@
         android:color="@color/logo_background"
         />
     <corners
-        android:radius="25dp"
+        android:radius="10dp"
         />
 
 </shape>

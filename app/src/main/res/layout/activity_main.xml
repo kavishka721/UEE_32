@@ -20,8 +20,8 @@
 
     <Button
         android:id="@+id/btnLogin"
-        android:layout_width="156dp"
-        android:layout_height="74dp"
+        android:layout_width="220dp"
+        android:layout_height="63dp"
         android:background="@drawable/button_border"
         android:onClick="navigateToMenu"
         android:text="Login"
@@ -29,7 +29,7 @@
         app:backgroundTint="@color/theme_color"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.788" />

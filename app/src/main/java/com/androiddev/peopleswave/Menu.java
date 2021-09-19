@@ -18,4 +18,19 @@ public class Menu extends AppCompatActivity {
         Intent intent = new Intent(this,transferServices.class);
         startActivity(intent);
     }
+
+    public void navigateToCreditCardService(View view){
+        Intent intent = new Intent(this,creditcardService.class);
+        startActivity(intent);
+    }
+
+    public void navigateToOneTimePayment(View view){
+        Intent intent = new Intent(this,OneTimePaymentMain.class);
+        startActivity(intent);
+    }
+
+    public void navigateToMangeBill(View view){
+        Intent intent = new Intent(this,addFavoriteBiller.class);
+        startActivity(intent);
+    }
 }
