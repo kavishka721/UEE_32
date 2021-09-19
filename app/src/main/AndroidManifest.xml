@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PeoplesWave">
         <activity
+            android:name=".OneTimePaymentConfirmation"
+            android:exported="true" />
+        <activity
+            android:name=".OneTimePaymentMain"
+            android:exported="true" />
+        <activity
+            android:name=".AccountSummaryMain"
+            android:exported="true" />
+        <activity
             android:name=".transferServices"
             android:exported="true" />
         <activity

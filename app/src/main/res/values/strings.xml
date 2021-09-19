@@ -1,6 +1,12 @@
 <resources>
     <string name="app_name">people\'s wave</string>
-  
-   
-  
+    <string name="txtOTFromAccount">From Account</string>
+    <string name="btnOTPay">PAY NOW</string>
+    <string name="txtOTServiceProvider">Service Provider</string>
+    <string name="txtOTAccNum">Account Number</string>
+    <string name="txtOTAmount">Amount</string>
+    <string name="txtOTDate">Date</string>
+    <string name="txtOTDownload">Download Payment Receipt</string>
+
+
 </resources>
