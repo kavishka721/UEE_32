@@ -3,7 +3,6 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-<<<<<<< HEAD
         <entry key="..\:/Users/DELL/OneDrive/Documents/Projects/SLIIT/UEE_32/app/src/main/res/drawable/card_shape.xml" value="0.19583333333333333" />
         <entry key="..\:/Users/DELL/OneDrive/Documents/Projects/SLIIT/UEE_32/app/src/main/res/drawable/details_view.xml" value="0.19583333333333333" />
         <entry key="..\:/Users/DELL/OneDrive/Documents/Projects/SLIIT/UEE_32/app/src/main/res/drawable/ic_launcher_background.xml" value="0.19583333333333333" />
@@ -11,24 +10,13 @@
         <entry key="..\:/Users/DELL/OneDrive/Documents/Projects/SLIIT/UEE_32/app/src/main/res/drawable/logo_background.xml" value="0.19583333333333333" />
         <entry key="..\:/Users/DELL/OneDrive/Documents/Projects/SLIIT/UEE_32/app/src/main/res/layout/activity_account_summary_main.xml" value="0.1068840579710145" />
         <entry key="..\:/Users/DELL/OneDrive/Documents/Projects/SLIIT/UEE_32/app/src/main/res/layout/activity_creditcard_service.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/OneDrive/Documents/Projects/SLIIT/UEE_32/app/src/main/res/layout/activity_interbank_transfer_menu.xml" value="0.1" />
         <entry key="..\:/Users/DELL/OneDrive/Documents/Projects/SLIIT/UEE_32/app/src/main/res/layout/activity_main.xml" value="0.1068840579710145" />
         <entry key="..\:/Users/DELL/OneDrive/Documents/Projects/SLIIT/UEE_32/app/src/main/res/layout/activity_menu.xml" value="0.1" />
         <entry key="..\:/Users/DELL/OneDrive/Documents/Projects/SLIIT/UEE_32/app/src/main/res/layout/activity_one_time_payment_confirmation.xml" value="0.22" />
         <entry key="..\:/Users/DELL/OneDrive/Documents/Projects/SLIIT/UEE_32/app/src/main/res/layout/activity_one_time_payment_main.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/DELL/OneDrive/Documents/Projects/SLIIT/UEE_32/app/src/main/res/layout/activity_tranfer_services.xml" value="0.1" />
         <entry key="..\:/Users/DELL/OneDrive/Documents/Projects/SLIIT/UEE_32/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.19583333333333333" />
-=======
-        <entry key="..\:/Users/thari/AndroidStudioProjects/PeoplesWave/app/src/main/res/drawable/beneficarydetailsbackground.xml" value="0.22592592592592592" />
-        <entry key="..\:/Users/thari/AndroidStudioProjects/PeoplesWave/app/src/main/res/drawable/ic_baseline_keyboard_backspace_24.xml" value="0.22592592592592592" />
-        <entry key="..\:/Users/thari/AndroidStudioProjects/PeoplesWave/app/src/main/res/drawable/menuitemrectangle.xml" value="0.14635416666666667" />
-        <entry key="..\:/Users/thari/AndroidStudioProjects/PeoplesWave/app/src/main/res/drawable/topbarrectangle.xml" value="0.2703125" />
-        <entry key="..\:/Users/thari/AndroidStudioProjects/PeoplesWave/app/src/main/res/drawable/topicbarrectangle.xml" value="0.23055555555555557" />
-        <entry key="..\:/Users/thari/AndroidStudioProjects/PeoplesWave/app/src/main/res/layout/activity_creditcard_service.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/thari/AndroidStudioProjects/PeoplesWave/app/src/main/res/layout/activity_interbank_transfer_menu.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/thari/AndroidStudioProjects/PeoplesWave/app/src/main/res/layout/activity_manage_fav_benficary.xml" value="0.4" />
-        <entry key="..\:/Users/thari/AndroidStudioProjects/PeoplesWave/app/src/main/res/layout/activity_menu.xml" value="0.13020833333333334" />
-        <entry key="..\:/Users/thari/AndroidStudioProjects/PeoplesWave/app/src/main/res/layout/activity_tranfer_services.xml" value="0.2335231895850285" />
->>>>>>> d1d731d9c1169b082840feb84a2b3222c6988956
         <entry key="..\:/Users/thari/AndroidStudioProjects/UEE_32/app/src/main/res/layout/activity_main.xml" value="0.4" />
         <entry key="..\:/Users/thari/AndroidStudioProjects/UEE_32/app/src/main/res/layout/activity_menu.xml" value="0.23854166666666668" />
         <entry key="..\:/Users/thari/AndroidStudioProjects/UEE_32/app/src/main/res/layout/activity_tranfer_services.xml" value="0.25416666666666665" />

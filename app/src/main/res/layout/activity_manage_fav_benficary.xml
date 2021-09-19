@@ -65,7 +65,7 @@
             tools:ignore="VectorDrawableCompat" />
 
         <TextView
-            android:id="@+id/transferServicesTopic"
+            android:id="@+id/txtOTConfirmation"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="104dp"
