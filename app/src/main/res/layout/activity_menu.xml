@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".Menu">
 
     <ImageView
@@ -119,9 +120,11 @@
 
     <TextView
         android:id="@+id/transferServiceMenu"
+
         android:layout_width="125dp"
         android:layout_height="64dp"
         android:layout_marginBottom="332dp"
+
         android:onClick="navigateToTransferService"
         android:text="Transfer Services"
         android:textAlignment="center"
