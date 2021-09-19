@@ -20,6 +20,12 @@
             android:name=".AccountSummaryMain"
             android:exported="true" />
         <activity
+            android:name=".ManageFavBenficary"
+            android:exported="true" />
+        <activity
+            android:name=".interbankTransferMenu"
+            android:exported="true" />
+        <activity
             android:name=".transferServices"
             android:exported="true" />
         <activity
