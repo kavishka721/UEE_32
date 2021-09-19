@@ -6,19 +6,17 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class transferServices extends AppCompatActivity {
+public class interbankTransferMenu extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tranfer_services);
+        setContentView(R.layout.activity_interbank_transfer_menu);
     }
 
-    public void navigateToInterBank(View view){
-        Intent intent = new Intent(this,interbankTransferMenu.class);
+    public void navigateToManageBeneficiary(View view){
+        Intent intent = new Intent(this,ManageFavBenficary.class);
         startActivity(intent);
 
     }
-
-
 }

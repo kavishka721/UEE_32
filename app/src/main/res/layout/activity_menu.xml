@@ -4,12 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".Menu">
 
     <TextView
         android:id="@+id/transferServiceMenu"
         android:layout_width="275dp"
-        android:layout_height="46dp"
+        android:layout_height="48dp"
         android:layout_marginTop="120dp"
         android:onClick="navigateToTransferService"
         android:text="Transfer Services"
