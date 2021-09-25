@@ -20,8 +20,8 @@
 
     <Button
         android:id="@+id/floginbtn"
-        android:layout_width="268dp"
-        android:layout_height="62dp"
+        android:layout_width="190dp"
+        android:layout_height="74dp"
         android:background="@drawable/button_border"
         android:onClick="navigateToLogin"
         android:text="LOGIN"
@@ -37,8 +37,8 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="268dp"
-        android:layout_height="62dp"
+        android:layout_width="192dp"
+        android:layout_height="71dp"
         android:background="@drawable/signup_btn_border"
         android:onClick="navigateToSignup"
         android:text="SIGNUP"

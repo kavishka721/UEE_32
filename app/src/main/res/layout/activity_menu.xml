@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
-    tools:context=".Menu">
+    tools:context=".Menu"
+    tools:layout_editor_absoluteX="29dp"
+    tools:layout_editor_absoluteY="-8dp">
 
     <ImageView
         android:id="@+id/menu_1"
@@ -45,46 +47,10 @@
         tools:ignore="VectorDrawableCompat" />
 
     <ImageView
-        android:id="@+id/summaryBox"
-        android:layout_width="172dp"
-        android:layout_height="202dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.092"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.251"
-        app:srcCompat="@drawable/edit_text_border" />
-
-    <ImageView
-        android:id="@+id/transferBox"
-        android:layout_width="172dp"
-        android:layout_height="202dp"
-        android:onClick="navigateToTransferService"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.895"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.251"
-        app:srcCompat="@drawable/edit_text_border" />
-
-    <ImageView
-        android:id="@+id/paymentBox"
-        android:layout_width="172dp"
-        android:layout_height="202dp"
-        android:layout_marginTop="40dp"
-        android:onClick="navigateToOneTimePayment"
-        app:layout_constraintEnd_toStartOf="@+id/CreditCardBox"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/summaryBox"
-        app:srcCompat="@drawable/edit_text_border" />
-
-    <ImageView
         android:id="@+id/CreditCardBox"
         android:layout_width="172dp"
         android:layout_height="202dp"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="40dp"
         android:onClick="navigateToCreditCardService"
         app:layout_constraintEnd_toEndOf="parent"
@@ -93,53 +59,59 @@
         app:layout_constraintTop_toBottomOf="@+id/transferBox"
         app:srcCompat="@drawable/edit_text_border" />
 
+    <ImageView
+        android:id="@+id/transferIcon"
+        android:layout_width="162dp"
+        android:layout_height="114dp"
+        android:layout_marginEnd="4dp"
+        android:onClick="navigateToTransferService"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/transferBox"
+        app:layout_constraintEnd_toEndOf="@+id/transferBox"
+        app:layout_constraintTop_toTopOf="@+id/transferBox"
+        app:layout_constraintVertical_bias="0.25"
+        app:srcCompat="@drawable/transfer" />
+
     <TextView
         android:id="@+id/transferServiceMenu"
 
-        android:layout_width="0dp"
-        android:layout_height="64dp"
+        android:layout_width="138dp"
+        android:layout_height="74dp"
 
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
         android:onClick="navigateToTransferService"
         android:text="Transfer Services"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="24sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/transferBox"
         app:layout_constraintEnd_toEndOf="@+id/transferBox"
-        app:layout_constraintStart_toStartOf="@+id/transferBox"
-        app:layout_constraintTop_toBottomOf="@+id/transferIcon" />
+        app:layout_constraintTop_toBottomOf="@+id/transferIcon"
+        app:layout_constraintVertical_bias="0.666" />
 
     <ImageView
-        android:id="@+id/transferIcon"
-        android:layout_width="164dp"
-        android:layout_height="117dp"
+        android:id="@+id/transferBox"
+        android:layout_width="172dp"
+        android:layout_height="202dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="16dp"
         android:onClick="navigateToTransferService"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.866"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.229"
-        app:srcCompat="@drawable/transfer" />
-
-    <ImageView
-        android:id="@+id/SummaryIcon"
-        android:layout_width="167dp"
-        android:layout_height="95dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.094"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.221"
-        app:srcCompat="@drawable/summary" />
+        app:layout_constraintHorizontal_bias="0.901"
+        app:layout_constraintStart_toEndOf="@+id/summaryBox"
+        app:layout_constraintTop_toBottomOf="@+id/menu_2"
+        app:srcCompat="@drawable/edit_text_border" />
 
     <TextView
         android:id="@+id/AccSummaryMenu"
-        android:layout_width="0dp"
-        android:layout_height="64dp"
-        android:layout_marginStart="20dp"
+        android:layout_width="150dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
         android:text="Account Summary"
         android:textAlignment="center"
         android:textColor="#000000"
@@ -150,11 +122,46 @@
         app:layout_constraintTop_toBottomOf="@+id/SummaryIcon" />
 
     <ImageView
+        android:id="@+id/summaryBox"
+        android:layout_width="172dp"
+        android:layout_height="202dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/paymentBox"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menu_1"
+        app:layout_constraintVertical_bias="0.495"
+        app:srcCompat="@drawable/edit_text_border" />
+
+    <ImageView
+        android:id="@+id/SummaryIcon"
+        android:layout_width="147dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="@+id/summaryBox"
+        app:layout_constraintStart_toStartOf="@+id/summaryBox"
+        app:layout_constraintTop_toTopOf="@+id/summaryBox"
+        app:srcCompat="@drawable/summary" />
+
+    <ImageView
+        android:id="@+id/paymentBox"
+        android:layout_width="172dp"
+        android:layout_height="202dp"
+        android:layout_marginBottom="160dp"
+        android:onClick="navigateToOneTimePayment"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/CreditCardBox"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/edit_text_border" />
+
+    <ImageView
         android:id="@+id/PaymentIcon"
         android:layout_width="167dp"
         android:layout_height="95dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="12dp"
         app:layout_constraintEnd_toEndOf="@+id/paymentBox"
+        app:layout_constraintHorizontal_bias="0.958"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/paymentBox"
         app:srcCompat="@drawable/payment" />
@@ -163,7 +170,7 @@
         android:id="@+id/PaymentMenu"
         android:layout_width="0dp"
         android:layout_height="64dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="24dp"
         android:text="Payment Services"
         android:textAlignment="center"
         android:textColor="#000000"
